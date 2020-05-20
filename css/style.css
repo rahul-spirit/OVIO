@@ -1,10 +1,14 @@
 .navdec{
-
-  background-image: linear-gradient(to right top, #74ebd5, #63e1eb, #72d4f6, #90c5f3, #acb6e5);
-  color: white;
+background-color: #fece00;
+  color: #fece00;
 }
-.navdec:a{
+.navdec a{
   color: white;
+  font-size: 15x;
+  font-weight: 500;
+}
+.navdec ul{
+
 }
 /*Why */
 .why{
@@ -52,8 +56,8 @@
 
   /* FOr Faq */
   .faq {
-  background-color: #152F4F;
-  color:WHITE;
+  background-color: #fece00;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -64,61 +68,44 @@
 }
 
  .faq:hover {
-  background-image: linear-gradient(to right top, #74ebd5, #63e1eb, #72d4f6, #90c5f3, #acb6e5);
-  color:#152F4F;
-  border: white;
-  border-radius: 4px;
+  
+ border: none;
 }
 
 .faqcontent {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  color: white;
-  background-color: #152F4F;;
+  color: black ;
+  
 }
 
 .faqdiv{
   width: 100%;
   padding: 20px;
-  background-image: linear-gradient(to right top, #74ebd5, #63e1eb, #72d4f6, #90c5f3, #acb6e5);
+ background-color: white;
   text-align: center;
   font-size: 35px;
   font-weight: bolder;
-  color: whitesmoke;
+  color: #fece00;
 }
 
 
 .footer{
-  background: #152F4F;
-  color:white;
+  background: #fece00;
+  color:black;
   width: 100%;
   
-  .links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        color:#4180CB;
-        }
-    }
-  }  
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:white;
-      transition: color .2s;
-      &:hover{color:#4180CB}
-    }
-  } 
-  .location{
-    .i{font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
-
+footer a{
+  color: black;
+}
+footer a:hover{
+  color: black;
+}
+.footer li {
+color: black;
+}
 .tnc{
   color: aqua;
 
