@@ -1,0 +1,125 @@
+.navdec{
+
+  background-image: linear-gradient(to right top, #74ebd5, #63e1eb, #72d4f6, #90c5f3, #acb6e5);
+  color: white;
+}
+.navdec:a{
+  color: white;
+}
+/*Why */
+.why{
+  
+}
+/* For Image Grid*/
+.irow {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .icolumn {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .icolumn iimg {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .icolumn {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .icolumn {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* FOr Faq */
+  .faq {
+  background-color: #152F4F;
+  color:WHITE;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+ .faq:hover {
+  background-image: linear-gradient(to right top, #74ebd5, #63e1eb, #72d4f6, #90c5f3, #acb6e5);
+  color:#152F4F;
+  border: white;
+  border-radius: 4px;
+}
+
+.faqcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: white;
+  background-color: #152F4F;;
+}
+
+.faqdiv{
+  width: 100%;
+  padding: 20px;
+  background-image: linear-gradient(to right top, #74ebd5, #63e1eb, #72d4f6, #90c5f3, #acb6e5);
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+
+.footer{
+  background: #152F4F;
+  color:white;
+  width: 100%;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    .i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+.tnc{
+  color: aqua;
+
+}
