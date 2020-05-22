@@ -12,3 +12,11 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 10) {
+      $('#navshadow').addClass('floatingNav');
+  } else {
+      $('#navshadow').removeClass('floatingNav');
+  }
+});
