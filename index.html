@@ -1,139 +1,167 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>XYZ</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>OVIO</title>
+  <link rel="icon" href="img/logo.svg" type="image/x-icon">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <!-- color code for yellow => fece00   -->
+
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navdec " id="navshadow">
-    <a class="navbar-brand" href="#"> <img src="img/logo.svg " width="50px">  </a>
-    <button class="navbar-toggler navtog " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "><img src="https://img.icons8.com/ios-filled/30/000000/menu.png"/></span>
+    <a class="navbar-brand" href="#"> <img src="img/logo.svg " width="50px"> </a>
+    <button class="navbar-toggler navtog " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "><img src="https://img.icons8.com/ios-filled/30/000000/menu.png" /></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      
+
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="index.html#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Support</a>
         </li>
       </ul>
     </div>
-  </nav>      <!-- Navbar ends-->
+  </nav> <!-- Navbar ends-->
+  
+  <div id="main">
+    <div id="left">
+        <img src="img/appstore.png" alt="">
+        <img src="img/playstore.png" alt="">
+    </div>
+    <div id="right">
+        <img src="img/mockup.png" alt="img">
+    </div>
+  </div>
+ 
 
-      <!-- SLide Show-->
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/ss3.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/ss2.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/ss3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      
-<!-- Image Grid-->
-      <div class="irow"> 
-        <div class="icolumn">
-          <img class="iimg" src="img/ig1.jfif" style="width:100%">
-          <img class="iimg" src="img/ig2.jfif" style="width:100%">
-          <img  class="iimg" src="img/ig3.jfif" style="width:100%">
-          <img  class="iimg"src="img/ig4.jfif" style="width:100%">
-          <img  class="iimg" src="img/ig5.jfif" style="width:100%">
-          <img  class="iimg" src="img/ig6.jfif" style="width:100%">
-          <img  class="iimg" src ="img/ig4.jfif" style="width:100%">
-        </div>
-        <div class="icolumn">
-          <img src="img/ig7.jfif" style="width:100%">
-          <img src="img/ig5.jfif" style="width:100%">
-          <img src="/img/ig1.jfif" style="width:100%">
-          <img src="img/ig2.jfif" style="width:100%">
-          <img src="img/ig2.jfif" style="width:100%">
-          <img src="img/ig7.jfif" style="width:100%">
-        </div>  
+  <div class="faqdiv">
+    <p class="faqdiv">FAQ </p>
     
-      <!-- FOr FAQ-->
-      
-<div class=" faqdiv" ><p>FAQ  </p></div>
-      <button type="button" class="faq">Question 1 <img class="faqicon" src ="img/expand.png" > </button> 
-<div class="faqcontent">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button type="button" class="faq">Question 2  <img class="faqicon" src ="img/expand.png" > </button>
-<div class="faqcontent">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button type="button" class="faq">Question 3  <img class="faqicon" src ="img/expand.png" ></button>
-<div class="faqcontent">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-   
+  </div>
+  <button type="button" class="faq">Why To choose us?<img class="faqicon" src="img/expand.png"> </button>
+  <div class="faqcontent">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+  </div>
+  <button type="button" class="faq">Question 2 <img class="faqicon" src="img/expand.png"> </button>
+  <div class="faqcontent">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+  </div>
+  <button type="button" class="faq">Question 3 <img class="faqicon" src="img/expand.png"></button>
+  <div class="faqcontent">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+  </div>
+<div id="about"></div>
+  <div class="  container faqdiv" id="about">
+    <p class="faqdiv" >ABOUT </p>
+  </div>
+  <p class="txt">OVIO -Our Story Inspired by LOCAL FOR VOCAL</p>
+<p class="container">OVIO as the name suggests Online Via Offline, make your shopping online with the perks of
+  offline treats. We represent the requirements of a typical Indian citizen. We are presenting you
+  the platform, with your favourite local vendors, to access their products online via OVIO TECH.
+  You can choose your products online with the local vendor of your choice and get the free trial
+  of your selected products according to the norms as specified.
+  Founded in 2020 by xyz, we as an online chain operate under the local organisations – that
+  holds a significant prominence in the Indian retail and fashion sectors. OVIO is not just another
+  hypermarket; it caters to every need of your family. OVIO is a value for money proposition for
+  Indian customers. We guarantee the best products at the best prices. With the ever-increasing
+  array of in-house brands, we have opened doors in the world of fashion and general
+  merchandise, including home furnishings, sports goods ,gifting solutions, apparel, shoes,
+  accessories and much more at prices that will surprise you.
+  We are bringing OVIO TECH being online as a part of the evolution of the Retail sector.We
+  incorporate the New Retail experience which will combine your physical world with a supreme
+  digital experience enabling you to shop with no bounds</p>
 
+  <p class="txt"> RETAIL LEADERSHIP IN CHHATTISGARH THROUGH INNOVATION AND TRANSFORMATION</p>
 
-
-<div class="mt-5 pt-5 pb-5 footer">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-5 col-xs-12 ">
-        <a  href="#"> <img src="img/logo.svg " width="15%">  </a>
-        <p class="pr-5 "> </p>
-        <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
-      </div>
-      <div class="col-lg-3 col-xs-12 footer">
-        <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+  <p class="container">Every day, OVIO TECH brings multiple products, opportunities and services to millions of
+    customers in Chhattisgarh. Most of all, we help Local shops, save and realize dreams and
+    aspirations to live a better quality of life every day.
+    OVIO TECH understands the soul of Indian consumers. Through multiple retail formats, we
+    connect a diverse and passionate community of Indian buyers, sellers and businesses. The
+    collective impact on business is staggering: customers just need to choose products and
+    services supplied by large numbers of local small, medium and large entrepreneurs and
+    manufacturers. And this number is set to grow.
+    OVIO TECH offers new ways of thinking about retail and consumerism in India. We believe
+    Retail must take the lead in renewing our economic growth trajectory. Leveraging the
+    experience and insights gained in pioneering retail in India, we have developed a deeper
+    understanding of the evolution of modern Indian retail and its role in driving sustainable
+    economic growth.
+    We believe in channelizing our energies to research-based innovation for generating value and
+    delivering better experiences to customers. We are focused on achieving sustainable business
+    performance through the synergy of customers, communities and partners by ongoing learning,
+    unlearning and adaptation. We take pride in our Indianness. Our belief in inclusiveness for
+    long-term sustainable growth and economic prosperity evokes trust among consumers. The
+    inception of OVIO TECH Online stems from this core ideology.</p>
+  <div class="mt-5 pt-5 pb-5 footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 ">
+          <a href="#"> <img src="img/logo.svg " width="15%"> </a>
+          <p class="pr-5 "> </p>
+          <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
+                class="fa fa-linkedin-square"></i></a></p>
+        </div>
+        <div class="col-lg-3 col-xs-12 footer">
+          <h4 class="mt-lg-0 mt-sm-3">Links</h4>
           <ul class="m-0 p-0">
             <li> <a class="footer" href="#">Home </a></li>
             <li> <a class="footer" href="#">About</a></li>
             <li> <a class="footer" href="#">Services</a></li>
-            <li> <a class="footer"  href="tnc.html">Terms And Conditions </a></li>
+            <li> <a class="footer" href="tnc.html">Terms And Conditions </a></li>
           </ul>
+        </div>
+        <div class="col-lg-4 col-xs-12 ">
+          <h4 class="mt-lg-0 mt-sm-4">Contact</h4>
+          <a href="
+        This seems to work (for now):
+        
+        https://mail.google.com/mail/?view=cm&fs=1&to=support@oviotech.in" class="footer">
+            <p><img src="https://img.icons8.com/ios/50/000000/important-mail.png" width="25px"> &nbsp;
+              Write to us!</p>
+          </a>
+        </div>
       </div>
-      <div class="col-lg-4 col-xs-12 ">
-        <h4 class="mt-lg-0 mt-sm-4">Contact</h4>
-        <a href="#"   class="footer"><p><img src="https://img.icons8.com/ios/50/000000/important-mail.png" width="25px"> &nbsp; support@oviotech.in</p></a>
+      <div class="row mt-5">
+        <div class="col footer">
+          <p class="">
+            <center>© 2020. All Rights Reserved.
+          </p>
+          </center>
+        </div>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col footer">
-        <p class=""><center>© 2020. All Rights Reserved.</p></center>
-      </div>
-    </div>
-  </div>
   </div>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+
 </html>
